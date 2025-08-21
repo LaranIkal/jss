@@ -14,7 +14,7 @@ public class jss {
       Context context = Context.newBuilder("js")
         .allowAllAccess(true)
         .allowHostAccess(HostAccess.ALL)
-        //.allowHostClassLookup(className -> true)
+        .allowHostClassLookup(s -> true)  // allow all classes
         .allowIO(true)
         .option("engine.WarnInterpreterOnly", "false")
         .build();

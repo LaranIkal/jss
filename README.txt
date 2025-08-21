@@ -16,5 +16,6 @@ On Windows, open a Terminal window and run example:
 Note. To run the scripts you can use other JVM than GrallVM, like: https://adoptium.net/ JVM
 
 
+TO REBUILD USE: mvn clean package
 
 
