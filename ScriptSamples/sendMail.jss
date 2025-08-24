@@ -32,4 +32,4 @@ message.setText("This email was sent using jakarta.mail from GraalVM JavaScript!
 // Send the email
 Transport.send(message);
 
-console.log("Email sent successfully!");
+ print("Email sent successfully!");
