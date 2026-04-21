@@ -7,8 +7,8 @@ import org.graalvm.polyglot.*;
  * JavaScript Scripting using Java and GraalVM
  *
  * Compile with maven: 
- * mvn clean
- * mvn 
+ * mvn clean package
+ *
  */
 public class jss {
   public static void main( String[] args ) throws Exception {
