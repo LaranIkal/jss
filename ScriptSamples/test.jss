@@ -21,7 +21,7 @@ if( parameters.length > 1 ) { // Get variables values if they exists
     }
     parameters.forEach(myFunction)    
   } finally { 
-    print("migId=" + migId + "\n")
+    if(typeof migId != "undefined") print("migId=" + migId + "\n")
     print("procSequences:" + procSequences + "\n")
     if (typeof procSequences === "undefined") {
       procSequences = [99]

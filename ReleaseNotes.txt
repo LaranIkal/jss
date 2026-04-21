@@ -1,6 +1,10 @@
 
 
-===>>> 2025/April/11 --- Version 1.0 INITIAL RELEASE, READ FILE: README.txt
+==>>> 2026/April/20 --- Version 1.1 
+  - Code cleaning. Delete reduntant allowIO, allowAllAccess already grants full IO access.
+  - Add regex and better approach to read the js code file, READ FILE: README.txt
+
+==>>> 2025/April/11 --- Version 1.0 INITIAL RELEASE, READ FILE: README.txt
 
 
 
