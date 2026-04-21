@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/home/ckassab/Apps/Java/graalvm-community-openjdk-21.0.2+13.1/lib"/>
-    <property name="sun.java.command" value="/home/ckassab/Development/Java/jss/target/surefire/surefirebooter-20260420174902943_3.jar /home/ckassab/Development/Java/jss/target/surefire 2026-04-20T17-49-02_906-jvmRun1 surefire-20260420174902943_1tmp surefire_0-20260420174902943_2tmp"/>
+    <property name="sun.java.command" value="/home/ckassab/Development/Java/jss/target/surefire/surefirebooter-20260420194919194_3.jar /home/ckassab/Development/Java/jss/target/surefire 2026-04-20T19-49-19_156-jvmRun1 surefire-20260420194919194_1tmp surefire_0-20260420194919194_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/ckassab/Development/Java/jss/target/test-classes:/home/ckassab/Development/Java/jss/target/classes:/home/ckassab/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/ckassab/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/ckassab/.m2/repository/org/graalvm/polyglot/polyglot/23.1.4/polyglot-23.1.4.jar:/home/ckassab/.m2/repository/org/graalvm/sdk/collections/23.1.4/collections-23.1.4.jar:/home/ckassab/.m2/repository/org/graalvm/sdk/nativeimage/23.1.4/nativeimage-23.1.4.jar:/home/ckassab/.m2/repository/org/graalvm/sdk/word/23.1.4/word-23.1.4.jar:/home/ckassab/.m2/repository/org/graalvm/js/js-language/23.1.4/js-language-23.1.4.jar:/home/ckassab/.m2/repository/org/graalvm/truffle/truffle-runtime/23.1.4/truffle-runtime-23.1.4.jar:/home/ckassab/.m2/repository/org/graalvm/sdk/jniutils/23.1.4/jniutils-23.1.4.jar:/home/ckassab/.m2/repository/org/graalvm/truffle/truffle-compiler/23.1.4/truffle-compiler-23.1.4.jar:/home/ckassab/.m2/repository/org/graalvm/regex/regex/23.1.4/regex-23.1.4.jar:/home/ckassab/.m2/repository/org/graalvm/shadowed/icu4j/23.1.4/icu4j-23.1.4.jar:/home/ckassab/.m2/repository/org/graalvm/truffle/truffle-api/23.1.4/truffle-api-23.1.4.jar:/home/ckassab/.m2/repository/com/sun/mail/jakarta.mail/2.0.1/jakarta.mail-2.0.1.jar:/home/ckassab/.m2/repository/com/sun/activation/jakarta.activation/2.0.1/jakarta.activation-2.0.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -29,7 +29,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/home/ckassab/Development/Java/jss/target/surefire/surefirebooter-20260420174902943_3.jar"/>
+    <property name="surefire.real.class.path" value="/home/ckassab/Development/Java/jss/target/surefire/surefirebooter-20260420194919194_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.2+13-jvmci-23.1-b30"/>
     <property name="user.name" value="ckassab"/>
