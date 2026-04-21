@@ -1,7 +1,9 @@
 # jss
 JavaScript Shell Scripting
 
-April 11 2025
+Last project update: April 20 2026
+
+Project creation Date: April 11 2025
 
 This project will show you how you can create shell scripts using JavaScript and Java.
 
