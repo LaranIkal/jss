@@ -1,49 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.jss.jssTest" time="0.021" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.jss.jssTest" time="0.025" tests="1" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.specification.version" value="21"/>
+    <property name="java.specification.version" value="25"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/ckassab/Development/Java/jss/target/test-classes:/home/ckassab/Development/Java/jss/target/classes:/home/ckassab/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/ckassab/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/ckassab/.m2/repository/org/graalvm/polyglot/polyglot/23.1.4/polyglot-23.1.4.jar:/home/ckassab/.m2/repository/org/graalvm/sdk/collections/23.1.4/collections-23.1.4.jar:/home/ckassab/.m2/repository/org/graalvm/sdk/nativeimage/23.1.4/nativeimage-23.1.4.jar:/home/ckassab/.m2/repository/org/graalvm/sdk/word/23.1.4/word-23.1.4.jar:/home/ckassab/.m2/repository/org/graalvm/js/js-language/23.1.4/js-language-23.1.4.jar:/home/ckassab/.m2/repository/org/graalvm/truffle/truffle-runtime/23.1.4/truffle-runtime-23.1.4.jar:/home/ckassab/.m2/repository/org/graalvm/sdk/jniutils/23.1.4/jniutils-23.1.4.jar:/home/ckassab/.m2/repository/org/graalvm/truffle/truffle-compiler/23.1.4/truffle-compiler-23.1.4.jar:/home/ckassab/.m2/repository/org/graalvm/regex/regex/23.1.4/regex-23.1.4.jar:/home/ckassab/.m2/repository/org/graalvm/shadowed/icu4j/23.1.4/icu4j-23.1.4.jar:/home/ckassab/.m2/repository/org/graalvm/truffle/truffle-api/23.1.4/truffle-api-23.1.4.jar:/home/ckassab/.m2/repository/com/sun/mail/jakarta.mail/2.0.1/jakarta.mail-2.0.1.jar:/home/ckassab/.m2/repository/com/sun/activation/jakarta.activation/2.0.1/jakarta.activation-2.0.1.jar:"/>
+    <property name="java.class.path" value="/home/ckassab/Development/Java/jss/target/test-classes:/home/ckassab/Development/Java/jss/target/classes:/home/ckassab/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/ckassab/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/ckassab/.m2/repository/org/graalvm/polyglot/polyglot/25.3.4.1/polyglot-25.3.4.1.jar:/home/ckassab/.m2/repository/org/graalvm/sdk/collections/25.3.4.1/collections-25.3.4.1.jar:/home/ckassab/.m2/repository/org/graalvm/sdk/nativeimage/25.3.4.1/nativeimage-25.3.4.1.jar:/home/ckassab/.m2/repository/org/graalvm/sdk/word/25.3.4.1/word-25.3.4.1.jar:/home/ckassab/.m2/repository/org/graalvm/js/js-language/25.3.4.1/js-language-25.3.4.1.jar:/home/ckassab/.m2/repository/org/graalvm/truffle/truffle-runtime/25.3.4.1/truffle-runtime-25.3.4.1.jar:/home/ckassab/.m2/repository/org/graalvm/truffle/truffle-compiler/25.3.4.1/truffle-compiler-25.3.4.1.jar:/home/ckassab/.m2/repository/org/graalvm/regex/regex/25.3.4.1/regex-25.3.4.1.jar:/home/ckassab/.m2/repository/org/graalvm/shadowed/icu4j/25.3.4.1/icu4j-25.3.4.1.jar:/home/ckassab/.m2/repository/org/graalvm/shadowed/xz/25.3.4.1/xz-25.3.4.1.jar:/home/ckassab/.m2/repository/org/graalvm/truffle/truffle-api/25.3.4.1/truffle-api-25.3.4.1.jar:/home/ckassab/.m2/repository/org/graalvm/sdk/jniutils/25.3.4.1/jniutils-25.3.4.1.jar:/home/ckassab/.m2/repository/com/sun/mail/jakarta.mail/2.0.1/jakarta.mail-2.0.1.jar:/home/ckassab/.m2/repository/com/sun/activation/jakarta.activation/2.0.1/jakarta.activation-2.0.1.jar:"/>
     <property name="java.vm.vendor" value="GraalVM Community"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://www.graalvm.org/"/>
-    <property name="user.timezone" value="America/Mexico_City"/>
     <property name="os.name" value="Linux"/>
-    <property name="java.vm.specification.version" value="21"/>
+    <property name="java.vm.specification.version" value="25"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
-    <property name="sun.boot.library.path" value="/home/ckassab/Apps/Java/graalvm-community-openjdk-21.0.2+13.1/lib"/>
-    <property name="sun.java.command" value="/home/ckassab/Development/Java/jss/target/surefire/surefirebooter-20260420194919194_3.jar /home/ckassab/Development/Java/jss/target/surefire 2026-04-20T19-49-19_156-jvmRun1 surefire-20260420194919194_1tmp surefire_0-20260420194919194_2tmp"/>
+    <property name="sun.boot.library.path" value="/home/ckassab/Apps/Java/graalvm-community-25.3.4.1+1.1/lib"/>
+    <property name="sun.java.command" value="/home/ckassab/Development/Java/jss/target/surefire/surefirebooter-20260927125001016_3.jar /home/ckassab/Development/Java/jss/target/surefire 2026-09-27T12-50-00_969-jvmRun1 surefire-20260927125001016_1tmp surefire_0-20260927125001016_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/home/ckassab/Development/Java/jss/target/test-classes:/home/ckassab/Development/Java/jss/target/classes:/home/ckassab/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/ckassab/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/ckassab/.m2/repository/org/graalvm/polyglot/polyglot/23.1.4/polyglot-23.1.4.jar:/home/ckassab/.m2/repository/org/graalvm/sdk/collections/23.1.4/collections-23.1.4.jar:/home/ckassab/.m2/repository/org/graalvm/sdk/nativeimage/23.1.4/nativeimage-23.1.4.jar:/home/ckassab/.m2/repository/org/graalvm/sdk/word/23.1.4/word-23.1.4.jar:/home/ckassab/.m2/repository/org/graalvm/js/js-language/23.1.4/js-language-23.1.4.jar:/home/ckassab/.m2/repository/org/graalvm/truffle/truffle-runtime/23.1.4/truffle-runtime-23.1.4.jar:/home/ckassab/.m2/repository/org/graalvm/sdk/jniutils/23.1.4/jniutils-23.1.4.jar:/home/ckassab/.m2/repository/org/graalvm/truffle/truffle-compiler/23.1.4/truffle-compiler-23.1.4.jar:/home/ckassab/.m2/repository/org/graalvm/regex/regex/23.1.4/regex-23.1.4.jar:/home/ckassab/.m2/repository/org/graalvm/shadowed/icu4j/23.1.4/icu4j-23.1.4.jar:/home/ckassab/.m2/repository/org/graalvm/truffle/truffle-api/23.1.4/truffle-api-23.1.4.jar:/home/ckassab/.m2/repository/com/sun/mail/jakarta.mail/2.0.1/jakarta.mail-2.0.1.jar:/home/ckassab/.m2/repository/com/sun/activation/jakarta.activation/2.0.1/jakarta.activation-2.0.1.jar:"/>
+    <property name="surefire.test.class.path" value="/home/ckassab/Development/Java/jss/target/test-classes:/home/ckassab/Development/Java/jss/target/classes:/home/ckassab/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/ckassab/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/ckassab/.m2/repository/org/graalvm/polyglot/polyglot/25.3.4.1/polyglot-25.3.4.1.jar:/home/ckassab/.m2/repository/org/graalvm/sdk/collections/25.3.4.1/collections-25.3.4.1.jar:/home/ckassab/.m2/repository/org/graalvm/sdk/nativeimage/25.3.4.1/nativeimage-25.3.4.1.jar:/home/ckassab/.m2/repository/org/graalvm/sdk/word/25.3.4.1/word-25.3.4.1.jar:/home/ckassab/.m2/repository/org/graalvm/js/js-language/25.3.4.1/js-language-25.3.4.1.jar:/home/ckassab/.m2/repository/org/graalvm/truffle/truffle-runtime/25.3.4.1/truffle-runtime-25.3.4.1.jar:/home/ckassab/.m2/repository/org/graalvm/truffle/truffle-compiler/25.3.4.1/truffle-compiler-25.3.4.1.jar:/home/ckassab/.m2/repository/org/graalvm/regex/regex/25.3.4.1/regex-25.3.4.1.jar:/home/ckassab/.m2/repository/org/graalvm/shadowed/icu4j/25.3.4.1/icu4j-25.3.4.1.jar:/home/ckassab/.m2/repository/org/graalvm/shadowed/xz/25.3.4.1/xz-25.3.4.1.jar:/home/ckassab/.m2/repository/org/graalvm/truffle/truffle-api/25.3.4.1/truffle-api-25.3.4.1.jar:/home/ckassab/.m2/repository/org/graalvm/sdk/jniutils/25.3.4.1/jniutils-25.3.4.1.jar:/home/ckassab/.m2/repository/com/sun/mail/jakarta.mail/2.0.1/jakarta.mail-2.0.1.jar:/home/ckassab/.m2/repository/com/sun/activation/jakarta.activation/2.0.1/jakarta.activation-2.0.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/ckassab"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2024-01-16"/>
-    <property name="java.home" value="/home/ckassab/Apps/Java/graalvm-community-openjdk-21.0.2+13.1"/>
+    <property name="java.version.date" value="2026-08-18"/>
+    <property name="java.home" value="/home/ckassab/Apps/Java/graalvm-community-25.3.4.1+1.1"/>
     <property name="file.separator" value="/"/>
     <property name="basedir" value="/home/ckassab/Development/Java/jss"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
-    <property name="jdk.internal.vm.ci.enabled" value="true"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/home/ckassab/Development/Java/jss/target/surefire/surefirebooter-20260420194919194_3.jar"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/home/ckassab/Development/Java/jss/target/surefire/surefirebooter-20260927125001016_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="21.0.2+13-jvmci-23.1-b30"/>
+    <property name="java.runtime.version" value="25.0.4.1+1-jvmci-25.3-b22"/>
     <property name="user.name" value="ckassab"/>
     <property name="stdout.encoding" value="UTF-8"/>
     <property name="path.separator" value=":"/>
-    <property name="os.version" value="6.17.0-20-generic"/>
+    <property name="os.version" value="7.0.0-31-generic"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="java.vendor.version" value="GraalVM CE 21.0.2+13.1"/>
+    <property name="java.vendor.version" value="GraalVM CE 25.3.4.1+1.1"/>
     <property name="localRepository" value="/home/ckassab/.m2/repository"/>
     <property name="java.vendor.url.bug" value="https://github.com/oracle/graal/issues"/>
     <property name="java.io.tmpdir" value="/tmp"/>
-    <property name="java.version" value="21.0.2"/>
+    <property name="java.version" value="25.0.4.1"/>
     <property name="user.dir" value="/home/ckassab/Development/Java/jss"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
@@ -52,9 +50,10 @@
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="UTF-8"/>
     <property name="java.vendor" value="GraalVM Community"/>
-    <property name="java.vm.version" value="21.0.2+13-jvmci-23.1-b30"/>
+    <property name="java.vm.version" value="25.0.4.1+1-jvmci-25.3-b22"/>
+    <property name="stdin.encoding" value="UTF-8"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="65.0"/>
+    <property name="java.class.version" value="69.0"/>
   </properties>
   <testcase name="shouldAnswerWithTrue" classname="org.jss.jssTest" time="0.002"/>
 </testsuite>

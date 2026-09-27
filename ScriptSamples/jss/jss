@@ -1,0 +1,17 @@
+#!/bin/bash
+
+if [ $# -eq 0 ]
+then
+	echo "Usage:"
+	echo "		jss <javascript file> <parameters like db=mydb, etc, separated by space >"
+	exit 1
+fi
+
+SCRIPT_DIR="$(cd "$(dirname "$(readlink -f "$0")")" && pwd)"  
+
+echo $SCRIPT_DIR
+
+#echo ""
+#echo "java --enable-native-access=ALL-UNNAMED --sun-misc-unsafe-memory-access=allow -cp $SCRIPT_DIR/jss-1.2.jar:$SCRIPT_DIR/jarlib/* org.jss.jss $*"
+
+java --enable-native-access=ALL-UNNAMED --sun-misc-unsafe-memory-access=allow -cp $SCRIPT_DIR/jss-1.2.jar:$SCRIPT_DIR/jarlib/* org.jss.jss $*
