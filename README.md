@@ -3,6 +3,9 @@ JavaScript Shell
 
 Last project update: September 27 2026
 
+# Why Your Own JavaScript Shell?:
+https://github.com/LaranIkal/jss/blob/main/Docs/Why%20Your%20Own%20JavaScript%20Shell.pdf
+
 This project will show you how you can create shell scripts using JavaScript and Java.
 
 You can run a JavaScript Shell Script after downloading jss:
