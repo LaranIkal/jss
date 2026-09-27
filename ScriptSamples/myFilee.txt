@@ -1,2 +1,0 @@
-Hello, my new file first line!
-Hello, my new file 2cond line!
