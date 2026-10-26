@@ -16,7 +16,7 @@ You can run a JavaScript Shell Script after downloading jss:
 
 Add to your .bashrc, and restart your computer:
 
-- export JAVA_HOME="$HOME/Apps/Java/graalvm-community-25.4.4.1.1+1.1"
+- export JAVA_HOME="$HOME/Apps/Java/graalvm-community-25.4.4.1.1+1.1" 
 - export PATH="$JAVA_HOME/bin:$PATH"
 
 Open the file manager and go to the directory where you have jss/ScriptSamples/jss/scripts
