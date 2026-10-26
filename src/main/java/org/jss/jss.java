@@ -13,7 +13,9 @@ Go to:
  https://github.com/graalvm/graalvm-ce-builds/releases
 
 Pick the JDK 25 build matching your OS/architecture
-e.g. graalvm-community-jdk-25i3-25.0.4.1_linux-x64_bin.tar.gz
+e.g. graalvm-community-jdk-25i4-25.0.4.1.1_linux-x64_bin.tar.gz
+
+run: mvn clean package
 */
 
 public class jss {
