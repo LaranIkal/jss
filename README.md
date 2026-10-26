@@ -9,13 +9,14 @@ https://github.com/LaranIkal/jss/blob/main/Docs/Why%20Your%20Own%20JavaScript%20
 This project will show you how you can create shell scripts using JavaScript and Java.
 
 You can run a JavaScript Shell Script after downloading jss:
-- Install Java from graalvm(https://www.graalvm.org/) community(https://github.com/graalvm/graalvm-ce-builds/releases), 
-last jss version I used : Java GraalVM Community LTS 25
+- Install Java from graalvm(https://www.graalvm.org/), Go to https://github.com/graalvm/graalvm-ce-builds/releases/,
+(GraalVM Community Version, we don't need PGO-Profile-Guided Optimization, which comes with the licensed graalVM version)
+  last jss version I used : graalvm-community-25.4.4.1.1+1.1
 - Configure your path variable to run Java and Maven, example on Linux:
 
 Add to your .bashrc, and restart your computer:
 
-export JAVA_HOME="$HOME/Apps/Java/graalvm-community-25.3.4.1+1.1"
+export JAVA_HOME="$HOME/Apps/Java/graalvm-community-25.4.4.1.1+1.1"
 export PATH="$JAVA_HOME/bin:$PATH"
 
 Open the file manager and go to the directory where you have jss/ScriptSamples/jss/scripts
