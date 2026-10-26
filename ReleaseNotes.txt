@@ -1,4 +1,9 @@
 
+==>>> 2026/October/25
+  - New runningjss directory
+  - Updated pom.xml package versions
+  - Updated GraalVM JDK 25
+
 ==>>> 2026/September/27
   - Improve documentation and script samples.
 
