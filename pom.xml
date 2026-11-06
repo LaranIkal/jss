@@ -8,9 +8,9 @@
 
     <groupId>org.jss</groupId>
     <artifactId>jss</artifactId>
-    <version>1.2</version>
+    <version>1.2.0</version>
+    <packaging>jar</packaging>
 
-    <name>jss</name>
 
     <properties>
         <maven.compiler.release>25</maven.compiler.release>
@@ -120,9 +120,12 @@
                             <createDependencyReducedPom>false</createDependencyReducedPom>
 
                             <shadedArtifactAttached>true</shadedArtifactAttached>
+                            <outputFile>${project.build.directory}/jss-1.2.jar</outputFile>
+                            <createDependencyReducedPom>false</createDependencyReducedPom>    
+                            <!--                        
                             <shadedClassifierName>jar-with-dependencies</shadedClassifierName>
 
-                            <!-- Exclude module descriptors and dependency signatures -->
+                            Exclude module descriptors and dependency signatures -->
                             <filters>
                                 <filter>
                                     <artifact>*:*</artifact>

@@ -1,39 +1,10 @@
 # jss
-JavaScript Shell
+jss - GraalVM Polyglot Context JavaScript shell
 
-Last project update: September 27 2026
+- To install and run an already-built jss, see **`installjss.md`** or **`installjss.pdf`**.
 
 # Why Your Own JavaScript Shell?:
 https://github.com/LaranIkal/jss/blob/main/Docs/Why%20Your%20Own%20JavaScript%20Shell.pdf
-
-This project will show you how you can create shell scripts using JavaScript and Java.
-
-You can run a JavaScript Shell Script after downloading jss:
-- Install Java from graalvm(https://www.graalvm.org/), Go to https://github.com/graalvm/graalvm-ce-builds/releases/,
-(GraalVM Community Version, we don't need PGO-Profile-Guided Optimization, which comes with the licensed graalVM version)
-  last jss version I used : graalvm-community-25.4.4.1.1+1.1
-- Configure your path variable to run Java and Maven, example on Linux:
-
-Add to your .bashrc, and restart your computer:
-
-- export JAVA_HOME="$HOME/Apps/Java/graalvm-community-25.4.4.1.1+1.1" 
-- export PATH="$JAVA_HOME/bin:$PATH"
-
-Open the file manager and go to the directory where you have jss/ScriptSamples/jss/scripts
-, right-(mouse)clik on empty space and open a terminal window, and run.
-
-
-../jss test.jss
-
-You can add jss to your path variable in your.bashrc, like this:
-export PATH="$HOME/Apps/jss:$PATH"
-
-On Windows, open a Terminal window and run example:
-
-.\jss.bat .\test.jss
-
-Note. To run the scripts you can use other JDK than GraalVM, like: https://adoptium.net/ JDK 25
-
 
 
 # Compiling the source code:
@@ -50,17 +21,25 @@ Add to your .bashrc, and restart your computer:
 - export JAVA_HOME="$HOME/Apps/Java/graalvm-community-25.4.4.1.1+1.1"
 - export PATH="$JAVA_HOME/bin:$PATH"
 
+*** Restart your computer or load the new settings:
+```bash
+source ~/.bashrc
+```
+
 Open the file manager and go to the directory where you have jss, right-(mouse)clik on empty space and open a terminal window.
 
-Happily compile with: mvn clean package
+Create a jss fat jar: mvn clean package
 
 - Open file manager and go to directory jss/target
-- Delete jar: jss-1.2.jar
-- Rename jss-1.2-jar-with-dependencies.jar to jss-1.2.jar
 
-For testing, copy jss-1.2.jar to directory jss/ScriptSamples/jss
+For testing, copy jss/target/jss-1.2.jar to directory jss/aworkingjss/jss
 
-Open a terminal windows in jss/ScriptSamples/jss and run: ./jss test.jss
+Open a terminal windows in jss/aworkingjss/jss/scripts and run: ../jss csv_to_json.jss
+
+Or if you already installed it, let's say, to: ~/Apps/jss, copy jss-1.2.jar to directory ~/Apps/jss
+Open a terminal window in ~/Apps/jss/scripts and run: ../jss csv_to_json.jss
+
+
 
 
 
