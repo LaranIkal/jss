@@ -2,7 +2,7 @@
 /*
 September/26/2026, Carlos Kassab
 This script is to download all the Java libraries needed.
-Even when it is explicitly developmed for JDBC drivers.
+Even when it is explicitly developed for JDBC drivers.
 Usage:
 Go to Maven central: https://central.sonatype.com/
 
